@@ -7,34 +7,34 @@ DONFACK NGESSON HENRY JUNIOR
 JACK DANIEL
 
 
-
+LIEN DU PROJET: https://tjlamelo.github.io/NINHO/
 
 --SELECTEURS COMPLEXES---------------------------
-Before: Permet de cibler le contenu qui précède  un élément spécifique; utilisé pour tous les éléments des pages 
-After:Permet de cibler le contenu qui suit  un élément spécifique; utilisé pour tous les éléments des pages 
-Hover:Permet de cibler un élément lorsque la souris survole cet éléments; utilisé sur la nav bar
-nth-child():Permet de cibler un élément spécifique en fonction de leur position dans un parent; utilisé pour le texte principal de la page d'accueil
+Before: Permet de cibler le contenu qui prÃ©cÃ¨de  un Ã©lÃ©ment spÃ©cifique; utilisÃ© pour tous les Ã©lÃ©ments des pages 
+After:Permet de cibler le contenu qui suit  un Ã©lÃ©ment spÃ©cifique; utilisÃ© pour tous les Ã©lÃ©ments des pages 
+Hover:Permet de cibler un Ã©lÃ©ment lorsque la souris survole cet Ã©lÃ©ments; utilisÃ© sur la nav bar
+nth-child():Permet de cibler un Ã©lÃ©ment spÃ©cifique en fonction de leur position dans un parent; utilisÃ© pour le texte principal de la page d'accueil
 
 
 --REGLES MEDIA-QUERIES---------------------------
-@media screen and (max-width: 900px): cette règle applique des styles à tous les appareils dont largeur est inférieure à 900px  appliqué sur la page d'accueil et les différentes sections
-@media screen and (min-width: 5000px): cette règle applique des styles à tous les appareils dont largeur est supérieure ou égale  à 768px  appliqué sur la page d'accueil et les différentes sections
-@media screen and (max-width: 1042px): cette règle applique des styles à tous les appareils dont largeur est inférieure à 1042px  appliqué sur la page d'accueil et les différentes sections
+@media screen and (max-width: 900px): cette rÃ¨gle applique des styles Ã  tous les appareils dont largeur est infÃ©rieure Ã  900px  appliquÃ© sur la page d'accueil et les diffÃ©rentes sections
+@media screen and (min-width: 5000px): cette rÃ¨gle applique des styles Ã  tous les appareils dont largeur est supÃ©rieure ou Ã©gale  Ã  768px  appliquÃ© sur la page d'accueil et les diffÃ©rentes sections
+@media screen and (max-width: 1042px): cette rÃ¨gle applique des styles Ã  tous les appareils dont largeur est infÃ©rieure Ã  1042px  appliquÃ© sur la page d'accueil et les diffÃ©rentes sections
 
 
 
 
 --ANIMATION ------------------------------------
-@keyframes pre-load: pour définir les étapes d'une animation utilisée pour l’animation des textes de la page d'accueil
+@keyframes pre-load: pour dÃ©finir les Ã©tapes d'une animation utilisÃ©e pour lâ€™animation des textes de la page d'accueil
 
-animation: pour décrire comment une animation doit se dérouler
+animation: pour dÃ©crire comment une animation doit se dÃ©rouler
 
 
  
 --PREFIXE----------------------------------------
 
-Nous avons utilisé des préfixes  pour établir des propriétés CSS spécifiques aux navigateurs webkit tels  que chrome ou safari
-Ceux-ci incluent des fonctionnalités telles que les animations, les transitions et les transformations en 3D 
+Nous avons utilisÃ© des prÃ©fixes  pour Ã©tablir des propriÃ©tÃ©s CSS spÃ©cifiques aux navigateurs webkit tels  que chrome ou safari
+Ceux-ci incluent des fonctionnalitÃ©s telles que les animations, les transitions et les transformations en 3D 
 
 Webkit:
 
@@ -42,17 +42,17 @@ Webkit:
 
 -webkit-scrollbar-track:pour changer l'aspect du background des boutons
 -webkit-scrollbar-thumb: pour changer l'aspect du bouton thumb
--webkit-scrollbar-button: pour changer l’aspect des boutons de défilement progressif haut et bas
+-webkit-scrollbar-button: pour changer lâ€™aspect des boutons de dÃ©filement progressif haut et bas
 
 
 
 --Variables CSS--------------------------------
 
 
-var(--main-color) permet de définir une variable de couleur utilisable dans tout le fichier css
---Propriétés cSs spéciale--
-transition: Permet de définir une animation de transition entre deux états différents d'un élément
-transform: Permet de transformer la forme, la taille, la position et l'orientation d'un élément
+var(--main-color) permet de dÃ©finir une variable de couleur utilisable dans tout le fichier css
+--PropriÃ©tÃ©s cSs spÃ©ciale--
+transition: Permet de dÃ©finir une animation de transition entre deux Ã©tats diffÃ©rents d'un Ã©lÃ©ment
+transform: Permet de transformer la forme, la taille, la position et l'orientation d'un Ã©lÃ©ment
 cursor pour changer l'aspect du curseur
 
 
